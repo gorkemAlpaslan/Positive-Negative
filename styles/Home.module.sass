@@ -2,6 +2,7 @@
 $primary-color: #2196f3
 
 .gameWrapper
+  position: relative
   height: 100vh
   overflow: hidden
   background: #121212
@@ -60,3 +61,17 @@ $primary-color: #2196f3
     flex-direction: column
     padding: 20px
     gap: 10px
+
+.creditFooter
+  position: fixed
+  bottom: 10px
+  right: 16px
+  font-size: 12px
+  color: #888
+  z-index: 10
+  a
+    color: #bbb
+    text-decoration: underline
+    text-underline-offset: 2px
+    &:hover
+      color: $primary-color

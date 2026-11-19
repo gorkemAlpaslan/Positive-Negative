@@ -69,6 +69,17 @@ export default function Home() {
         </div>
 
         <ScoreGame></ScoreGame>
+
+        <footer className={style.creditFooter}>
+          <span>by </span>
+          <a
+            href="https://www.gorkemalpaslan.com.tr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Görkem Alpaslan
+          </a>
+        </footer>
       </div>
     </div>
   );
